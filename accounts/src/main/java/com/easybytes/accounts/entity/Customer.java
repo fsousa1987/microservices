@@ -3,6 +3,7 @@ package com.easybytes.accounts.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+@SuppressWarnings("JpaDataSourceORMInspection")
 @Entity
 @Getter
 @Setter
